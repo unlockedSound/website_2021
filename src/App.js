@@ -509,26 +509,26 @@ function App() {
                                     </div>
                                 </div>
 
-{/*                                <div>*/}
-{/*                                    <div>*/}
-{/*<span class="flex items-center justify-center h-12 w-12 rounded-md bg-white bg-opacity-10">*/}
-{/*    <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"*/}
-{/*         stroke="currentColor" aria-hidden="true">*/}
-{/*<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h10a8 8 0 018 8v2M3 10l6 6m-6-6l6-6"/>*/}
-{/*</svg>*/}
-{/*</span>*/}
-{/*                                    </div>*/}
-{/*                                    <div class="mt-6">*/}
-{/*                                        <h3 class="text-lg font-medium text-white">Dungeon Master and Game Designer</h3>*/}
-{/*                                        <p class="mt-2 text-base text-purple-200">*/}
-{/*                                            Having learned D&D in middle school I've been designing and running games*/}
-{/*                                            consistently since around 2012. With a passion for story telling and design*/}
-{/*                                            combining to create complex tales and locations like <a*/}
-{/*                                            className="underline" target="_blank"*/}
-{/*                                            href="#">Aldermoure</a>*/}
-{/*                                        </p>*/}
-{/*                                    </div>*/}
-{/*                                </div>*/}
+                                {/*                                <div>*/}
+                                {/*                                    <div>*/}
+                                {/*<span class="flex items-center justify-center h-12 w-12 rounded-md bg-white bg-opacity-10">*/}
+                                {/*    <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"*/}
+                                {/*         stroke="currentColor" aria-hidden="true">*/}
+                                {/*<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h10a8 8 0 018 8v2M3 10l6 6m-6-6l6-6"/>*/}
+                                {/*</svg>*/}
+                                {/*</span>*/}
+                                {/*                                    </div>*/}
+                                {/*                                    <div class="mt-6">*/}
+                                {/*                                        <h3 class="text-lg font-medium text-white">Dungeon Master and Game Designer</h3>*/}
+                                {/*                                        <p class="mt-2 text-base text-purple-200">*/}
+                                {/*                                            Having learned D&D in middle school I've been designing and running games*/}
+                                {/*                                            consistently since around 2012. With a passion for story telling and design*/}
+                                {/*                                            combining to create complex tales and locations like <a*/}
+                                {/*                                            className="underline" target="_blank"*/}
+                                {/*                                            href="#">Aldermoure</a>*/}
+                                {/*                                        </p>*/}
+                                {/*                                    </div>*/}
+                                {/*                                </div>*/}
 
                                 <div>
                                     <div>
@@ -556,81 +556,65 @@ function App() {
                                     </div>
                                 </div>
 
-{/*                                <div>*/}
-{/*                                    <div>*/}
-{/*<span className="flex items-center justify-center h-12 w-12 rounded-md bg-white bg-opacity-10">*/}
-{/*    <svg className="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"*/}
-{/*         stroke="currentColor" aria-hidden="true">*/}
-{/*<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"*/}
-{/*      d="M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>*/}
-{/*</svg>*/}
-{/*</span>*/}
-{/*                                    </div>*/}
-{/*                                    <div className="mt-6">*/}
-{/*                                        <h3 className="text-lg font-medium text-white">Top Tier Warlock</h3>*/}
-{/*                                        <p className="mt-2 text-base text-purple-200">*/}
-{/*                                            Filled some time during the 2020 pandemic and rose to the 385th rank for*/}
-{/*                                            the 9.0 Mythic+ season out of over <sup>1</sup>&frasl;<sub>4</sub> million*/}
-{/*                                            warlocks world wide.*/}
-{/*                                        </p>*/}
-{/*                                    </div>*/}
-{/*                                </div>*/}
+                                {/*                                <div>*/}
+                                {/*                                    <div>*/}
+                                {/*<span className="flex items-center justify-center h-12 w-12 rounded-md bg-white bg-opacity-10">*/}
+                                {/*    <svg className="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"*/}
+                                {/*         stroke="currentColor" aria-hidden="true">*/}
+                                {/*<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"*/}
+                                {/*      d="M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>*/}
+                                {/*</svg>*/}
+                                {/*</span>*/}
+                                {/*                                    </div>*/}
+                                {/*                                    <div className="mt-6">*/}
+                                {/*                                        <h3 className="text-lg font-medium text-white">Top Tier Warlock</h3>*/}
+                                {/*                                        <p className="mt-2 text-base text-purple-200">*/}
+                                {/*                                            Filled some time during the 2020 pandemic and rose to the 385th rank for*/}
+                                {/*                                            the 9.0 Mythic+ season out of over <sup>1</sup>&frasl;<sub>4</sub> million*/}
+                                {/*                                            warlocks world wide.*/}
+                                {/*                                        </p>*/}
+                                {/*                                    </div>*/}
+                                {/*                                </div>*/}
 
                             </div>
                         </div>
                     </div>
 
                     <div class="relative bg-gray-900">
-                        <div class="h-80 absolute inset-x-0 bottom-0 xl:top-0 xl:h-full">
-                            <div class="h-full w-full xl:grid xl:grid-cols-2">
-                                <div class="h-full xl:relative xl:col-start-2">
-                                    <img class="h-full w-full object-cover opacity-25 xl:absolute xl:inset-0"
-                                         src="https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2830&q=80&sat=-100"
-                                         alt="People working on laptops"/>
-                                    <div aria-hidden="true"
-                                         class="absolute inset-x-0 top-0 h-32 bg-gradient-to-b from-gray-900 xl:inset-y-0 xl:left-0 xl:h-full xl:w-32 xl:bg-gradient-to-r"/>
-                                </div>
-                            </div>
-                        </div>
                         <div
-                            class="max-w-4xl mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8 xl:grid xl:grid-cols-2 xl:grid-flow-col-dense xl:gap-x-8">
-                            <div class="relative pt-12 pb-64 sm:pt-24 sm:pb-64 xl:col-start-1 xl:pb-24">
+                            class="max-w-4xl mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8 xl:grid xl:gap-x-8">
+                            <div class="relative pt-12 pb-64 sm:pt-24 sm:pb-64 xl:pb-24">
                                 <h2 class="text-sm font-semibold tracking-wide uppercase">
                                 <span
-                                    class="bg-gradient-to-r from-purple-300 to-indigo-300 bg-clip-text text-transparent">Valuable Metrics</span>
+                                    class="bg-gradient-to-r from-purple-300 to-indigo-300 bg-clip-text text-transparent">Other Stuff</span>
                                 </h2>
-                                <p class="mt-3 text-3xl font-extrabold text-white">Get actionable data that will help
-                                    grow
-                                    your business</p>
-                                <p class="mt-5 text-lg text-gray-300">Rhoncus sagittis risus arcu erat lectus bibendum.
-                                    Ut
-                                    in adipiscing quis in viverra tristique sem. Ornare feugiat viverra eleifend fusce
-                                    orci
-                                    in quis amet. Sit in et vitae tortor, massa. Dapibus laoreet amet lacus nibh integer
-                                    quis. Eu vulputate diam sit tellus quis at.</p>
+                                <p class="mt-3 text-3xl font-extrabold text-white">A small slice of hobbies and nifty
+                                    tidbits</p>
+                                <p class="mt-5 text-lg text-gray-300">Either as an extension of the drive to create or
+                                    just a bit of a side hobby I find more than a few ways to stay busy</p>
                                 <div class="mt-12 grid grid-cols-1 gap-y-12 gap-x-6 sm:grid-cols-2">
                                     <p>
-                                        <span class="block text-2xl font-bold text-white">8K+</span>
-                                        <span class="mt-1 block text-base text-gray-300"><span
-                                            class="font-medium text-white">Companies</span> use laoreet amet lacus nibh integer quis.</span>
+                                        <span class="block text-2xl font-bold text-white">Master Dungeon Master</span>
+                                        <span class="mt-1 block text-base text-gray-300">I've been playing, and almost exclusively running, Dungeon's and Dragons campaigns since middle school. I focus on story telling and expanding my home built game world through player interaction with it. Especially deep love of <a
+                                            class="font-medium text-white underline"
+                                            href="https://cdn.discordapp.com/attachments/750163510884827157/773750814011162644/IMG_4282.jpg">map making</a> to bring the world to life.</span>
                                     </p>
 
                                     <p>
-                                        <span class="block text-2xl font-bold text-white">25K+</span>
-                                        <span class="mt-1 block text-base text-gray-300"><span
-                                            class="font-medium text-white">Countries around the globe</span> lacus nibh integer quis.</span>
+                                        <span class="block text-2xl font-bold text-white">Passion for Creating and Experiencing Cooking</span>
+                                        <span class="mt-1 block text-base text-gray-300">From working in a Moroccan French fusion restaurant instead of summer camp in grade school to being fed blowfish by Iron Chef Japanese Morimoto. I have a long and storied history with cuisine.</span>
                                     </p>
 
                                     <p>
-                                        <span class="block text-2xl font-bold text-white">98%</span>
-                                        <span class="mt-1 block text-base text-gray-300"><span
-                                            class="font-medium text-white">Customer satisfaction</span> laoreet amet lacus nibh integer quis.</span>
+                                        <span class="block text-2xl font-bold text-white">High Ranked Warlock</span>
+                                        <span class="mt-1 block text-base text-gray-300">Reached rank <a
+                                            href="https://raider.io/characters/us/arthas/Brokenkey"
+                                            class="font-medium text-white underline"> 300 and 400 for Mythic+ Warlocks</a> in World of Warcraft during Shadowlands season 1 and 2 respectively.</span>
                                     </p>
 
                                     <p>
-                                        <span class="block text-2xl font-bold text-white">12M+</span>
-                                        <span class="mt-1 block text-base text-gray-300"><span
-                                            class="font-medium text-white">Issues resolved</span> lacus nibh integer quis.</span>
+                                        <span class="block text-2xl font-bold text-white">Tangero and Argentine Tango Organizer</span>
+                                        <span class="mt-1 block text-base text-gray-300">Having begun to pick up Argentine Tango seriously in the Fall of 2010 I have since danced more nights away than I can count. On the side I've worked to host numerous events from house parties to large scale festivals as well as being one of the original projects that led to opening my company: SpkEz (Speakeasy Tango LLC).</span>
                                     </p>
                                 </div>
                             </div>
@@ -639,20 +623,16 @@ function App() {
 
                     <div class="bg-white">
                         <div
-                            class="max-w-4xl mx-auto py-16 px-4 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8 lg:flex lg:items-center lg:justify-between">
+                            class="max-w-4xl mx-auto py-16 px-4 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
                             <h2 class="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-                                <span class="block">Ready to get started?</span>
+                                <span class="block">Want to get in touch?</span>
                                 <span
-                                    class="block bg-gradient-to-r from-purple-600 to-indigo-600 bg-clip-text text-transparent">Get in touch or create an account.</span>
+                                    class="block bg-gradient-to-r from-purple-600 to-indigo-600 bg-clip-text text-transparent">Feel free to reach out if you would be interested in learning more about myself, my projects, or you think I might be a good fit for one of your own.</span>
                             </h2>
                             <div class="mt-6 space-y-4 sm:space-y-0 sm:flex sm:space-x-5">
-                                <a href="#"
-                                   class="flex items-center justify-center bg-gradient-to-r from-purple-600 to-indigo-600 bg-origin-border px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white hover:from-purple-700 hover:to-indigo-700">
-                                    Learn more
-                                </a>
-                                <a href="#"
+                                <a href="mailto:david@chorvinsky.com"
                                    class="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-indigo-800 bg-indigo-50 hover:bg-indigo-100">
-                                    Get started
+                                    Get in touch
                                 </a>
                             </div>
                         </div>
@@ -661,170 +641,11 @@ function App() {
             </main>
 
             <footer class="bg-gray-50" aria-labelledby="footer-heading">
-                <h2 id="footer-heading" class="sr-only">Footer</h2>
-                <div class="max-w-7xl mx-auto pt-16 pb-8 px-4 sm:px-6 lg:pt-24 lg:px-8">
-                    <div class="xl:grid xl:grid-cols-3 xl:gap-8">
-                        <div class="grid grid-cols-2 gap-8 xl:col-span-2">
-                            <div class="md:grid md:grid-cols-2 md:gap-8">
-                                <div>
-                                    <h3 class="text-sm font-semibold text-gray-400 tracking-wider uppercase">
-                                        Solutions
-                                    </h3>
-                                    <ul role="list" class="mt-4 space-y-4">
-                                        <li>
-                                            <a href="#" class="text-base text-gray-500 hover:text-gray-900">
-                                                Marketing
-                                            </a>
-                                        </li>
-
-                                        <li>
-                                            <a href="#" class="text-base text-gray-500 hover:text-gray-900">
-                                                Analytics
-                                            </a>
-                                        </li>
-
-                                        <li>
-                                            <a href="#" class="text-base text-gray-500 hover:text-gray-900">
-                                                Commerce
-                                            </a>
-                                        </li>
-
-                                        <li>
-                                            <a href="#" class="text-base text-gray-500 hover:text-gray-900">
-                                                Insights
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="mt-12 md:mt-0">
-                                    <h3 class="text-sm font-semibold text-gray-400 tracking-wider uppercase">
-                                        Support
-                                    </h3>
-                                    <ul role="list" class="mt-4 space-y-4">
-                                        <li>
-                                            <a href="#" class="text-base text-gray-500 hover:text-gray-900">
-                                                Pricing
-                                            </a>
-                                        </li>
-
-                                        <li>
-                                            <a href="#" class="text-base text-gray-500 hover:text-gray-900">
-                                                Documentation
-                                            </a>
-                                        </li>
-
-                                        <li>
-                                            <a href="#" class="text-base text-gray-500 hover:text-gray-900">
-                                                Guides
-                                            </a>
-                                        </li>
-
-                                        <li>
-                                            <a href="#" class="text-base text-gray-500 hover:text-gray-900">
-                                                API Status
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="md:grid md:grid-cols-2 md:gap-8">
-                                <div>
-                                    <h3 class="text-sm font-semibold text-gray-400 tracking-wider uppercase">
-                                        Company
-                                    </h3>
-                                    <ul role="list" class="mt-4 space-y-4">
-                                        <li>
-                                            <a href="#" class="text-base text-gray-500 hover:text-gray-900">
-                                                About
-                                            </a>
-                                        </li>
-
-                                        <li>
-                                            <a href="#" class="text-base text-gray-500 hover:text-gray-900">
-                                                Blog
-                                            </a>
-                                        </li>
-
-                                        <li>
-                                            <a href="#" class="text-base text-gray-500 hover:text-gray-900">
-                                                Jobs
-                                            </a>
-                                        </li>
-
-                                        <li>
-                                            <a href="#" class="text-base text-gray-500 hover:text-gray-900">
-                                                Press
-                                            </a>
-                                        </li>
-
-                                        <li>
-                                            <a href="#" class="text-base text-gray-500 hover:text-gray-900">
-                                                Partners
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="mt-12 md:mt-0">
-                                    <h3 class="text-sm font-semibold text-gray-400 tracking-wider uppercase">
-                                        Legal
-                                    </h3>
-                                    <ul role="list" class="mt-4 space-y-4">
-                                        <li>
-                                            <a href="#" class="text-base text-gray-500 hover:text-gray-900">
-                                                Claim
-                                            </a>
-                                        </li>
-
-                                        <li>
-                                            <a href="#" class="text-base text-gray-500 hover:text-gray-900">
-                                                Privacy
-                                            </a>
-                                        </li>
-
-                                        <li>
-                                            <a href="#" class="text-base text-gray-500 hover:text-gray-900">
-                                                Terms
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="mt-12 xl:mt-0">
-                            <h3 class="text-sm font-semibold text-gray-400 tracking-wider uppercase">
-                                Subscribe to our newsletter
-                            </h3>
-                            <p class="mt-4 text-base text-gray-500">
-                                The latest news, articles, and resources, sent to your inbox weekly.
-                            </p>
-                            <form class="mt-4 sm:flex sm:max-w-md">
-                                <label for="email-address" class="sr-only">Email address</label>
-                                <input type="email" name="email-address" id="email-address" autocomplete="email"
-                                       required
-                                       class="appearance-none min-w-0 w-full bg-white border border-gray-300 rounded-md shadow-sm py-2 px-4 text-base text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:placeholder-gray-400"
-                                       placeholder="Enter your email"/>
-                                <div class="mt-3 rounded-md sm:mt-0 sm:ml-3 sm:flex-shrink-0">
-                                    <button type="submit"
-                                            class="w-full flex items-center justify-center bg-gradient-to-r from-purple-600 to-indigo-600 bg-origin-border px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white hover:from-purple-700 hover:to-indigo-700">
-                                        Subscribe
-                                    </button>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
+                <div class="max-w-7xl mx-auto pb-8 px-4 sm:px-6 lg:px-8 pt-6">
                     <div
-                        class="mt-12 border-t border-gray-200 pt-8 md:flex md:items-center md:justify-between lg:mt-16">
+                        class="border-gray-200 md:flex md:items-center md:justify-between">
                         <div class="flex space-x-6 md:order-2">
-                            <a href="#" class="text-gray-400 hover:text-gray-500">
-                                <span class="sr-only">Facebook</span>
-                                <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                                    <path fill-rule="evenodd"
-                                          d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
-                                          clip-rule="evenodd"/>
-                                </svg>
-                            </a>
-
-                            <a href="#" class="text-gray-400 hover:text-gray-500">
+                            <a href="https://www.instagram.com/echoofhaiku/" class="text-gray-400 hover:text-gray-500">
                                 <span class="sr-only">Instagram</span>
                                 <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                                     <path fill-rule="evenodd"
@@ -833,7 +654,7 @@ function App() {
                                 </svg>
                             </a>
 
-                            <a href="#" class="text-gray-400 hover:text-gray-500">
+                            <a href="https://twitter.com/UnlockedSound" class="text-gray-400 hover:text-gray-500">
                                 <span class="sr-only">Twitter</span>
                                 <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                                     <path
@@ -850,17 +671,10 @@ function App() {
                                 </svg>
                             </a>
 
-                            <a href="#" class="text-gray-400 hover:text-gray-500">
-                                <span class="sr-only">Dribbble</span>
-                                <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                                    <path fill-rule="evenodd"
-                                          d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10c5.51 0 10-4.48 10-10S17.51 2 12 2zm6.605 4.61a8.502 8.502 0 011.93 5.314c-.281-.054-3.101-.629-5.943-.271-.065-.141-.12-.293-.184-.445a25.416 25.416 0 00-.564-1.236c3.145-1.28 4.577-3.124 4.761-3.362zM12 3.475c2.17 0 4.154.813 5.662 2.148-.152.216-1.443 1.941-4.48 3.08-1.399-2.57-2.95-4.675-3.189-5A8.687 8.687 0 0112 3.475zm-3.633.803a53.896 53.896 0 013.167 4.935c-3.992 1.063-7.517 1.04-7.896 1.04a8.581 8.581 0 014.729-5.975zM3.453 12.01v-.26c.37.01 4.512.065 8.775-1.215.25.477.477.965.694 1.453-.109.033-.228.065-.336.098-4.404 1.42-6.747 5.303-6.942 5.629a8.522 8.522 0 01-2.19-5.705zM12 20.547a8.482 8.482 0 01-5.239-1.8c.152-.315 1.888-3.656 6.703-5.337.022-.01.033-.01.054-.022a35.318 35.318 0 011.823 6.475 8.4 8.4 0 01-3.341.684zm4.761-1.465c-.086-.52-.542-3.015-1.659-6.084 2.679-.423 5.022.271 5.314.369a8.468 8.468 0 01-3.655 5.715z"
-                                          clip-rule="evenodd"/>
-                                </svg>
-                            </a>
+
                         </div>
                         <p class="mt-8 text-base text-gray-400 md:mt-0 md:order-1">
-                            &copy; 2020 Workflow, Inc. All rights reserved.
+                            &copy; 2021 David Chorvinsky, All rights reserved.
                         </p>
                     </div>
                 </div>
