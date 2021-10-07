@@ -9,12 +9,12 @@ function App() {
             <header>
                 <div class="relative bg-white">
                     <div
-                        class="flex justify-between items-center max-w-7xl mx-auto px-4 py-6 sm:px-6 md:justify-start md:space-x-10 lg:px-8">
-                        <div class="flex justify-start lg:w-0 lg:flex-1">
-                            <img class="h-16 -m-2.5 w-auto sm:h-10"
-                                 src="logo@3x.png"
+                        class="max-w-7xl mx-auto px-4 py-2 sm:px-6 md:justify-start md:space-x-10 lg:px-8">
+                        <div class="flex sm:justify-between justify-start">
+                            <img class="h-10 w-auto sm:h-16"
+                                 src="logo_2.svg"
                                  alt=""/>
-                            <div class="pl-3 text-2xl">
+                            <div class="pl-3 text-2xl sm:text-4xl my-auto ">
                                 David Chorvinsky
                             </div>
                         </div>
