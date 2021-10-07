@@ -404,7 +404,7 @@ function App() {
                             </p>
                             <div class="mt-6 grid grid-cols-2 gap-8 md:grid-cols-4 lg:grid-cols-4">
                                 <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-                                    <img class="h-20" src="agile.png"
+                                    <img class="h-20" src="agile.svg"
                                          alt="Agile"/>
                                 </div>
                                 <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
@@ -440,10 +440,11 @@ function App() {
                                 <div>
                                     <div>
 <span class="flex items-center justify-center h-12 w-12 rounded-md bg-white bg-opacity-10">
-    <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-         stroke="currentColor" aria-hidden="true">
-<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-      d="M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4"/>
+    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-white" viewBox="0 0 20 20" fill="currentColor">
+  <path d="M13 7H7v6h6V7z"/>
+  <path fill-rule="evenodd"
+        d="M7 2a1 1 0 012 0v1h2V2a1 1 0 112 0v1h2a2 2 0 012 2v2h1a1 1 0 110 2h-1v2h1a1 1 0 110 2h-1v2a2 2 0 01-2 2h-2v1a1 1 0 11-2 0v-1H9v1a1 1 0 11-2 0v-1H5a2 2 0 01-2-2v-2H2a1 1 0 110-2h1V9H2a1 1 0 010-2h1V5a2 2 0 012-2h2V2zM5 5h10v10H5V5z"
+        clip-rule="evenodd"/>
 </svg>
 </span>
                                     </div>
@@ -454,7 +455,7 @@ function App() {
                                             Guide: Auction Bot</a></h3>
                                         <p class="mt-2 text-base text-purple-200">
                                             After a decade plus of fascination and tracking of the economy within World
-                                            of Warcraft a friend and I teamed up to bring my complex analysis to the
+                                            of Warcraft, a friend and I teamed up to bring my complex analysis to the
                                             masses in the form of a responsive bot that empowers every player to get the
                                             best price on anything available on the in-game marketplace.
                                         </p>
@@ -464,10 +465,10 @@ function App() {
                                 <div>
                                     <div>
 <span class="flex items-center justify-center h-12 w-12 rounded-md bg-white bg-opacity-10">
-    <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-         stroke="currentColor" aria-hidden="true">
-<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-      d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"/>
+   <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-white" viewBox="0 0 20 20" fill="currentColor">
+  <path fill-rule="evenodd"
+        d="M7 2a1 1 0 00-.707 1.707L7 4.414v3.758a1 1 0 01-.293.707l-4 4C.817 14.769 2.156 18 4.828 18h10.343c2.673 0 4.012-3.231 2.122-5.121l-4-4A1 1 0 0113 8.172V4.414l.707-.707A1 1 0 0013 2H7zm2 6.172V4h2v4.172a3 3 0 00.879 2.12l1.027 1.028a4 4 0 00-2.171.102l-.47.156a4 4 0 01-2.53 0l-.563-.187a1.993 1.993 0 00-.114-.035l1.063-1.063A3 3 0 009 8.172z"
+        clip-rule="evenodd"/>
 </svg>
 </span>
                                     </div>
@@ -490,10 +491,9 @@ function App() {
                                 <div>
                                     <div>
 <span class="flex items-center justify-center h-12 w-12 rounded-md bg-white bg-opacity-10">
-    <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-         stroke="currentColor" aria-hidden="true">
-<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-      d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"/>
+    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-white" viewBox="0 0 20 20" fill="currentColor">
+  <path
+      d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"/>
 </svg>
 </span>
                                     </div>
@@ -533,10 +533,10 @@ function App() {
                                 <div>
                                     <div>
 <span class="flex items-center justify-center h-12 w-12 rounded-md bg-white bg-opacity-10">
-    <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-         stroke="currentColor" aria-hidden="true">
-<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-      d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z"/>
+<svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-white" viewBox="0 0 20 20" fill="currentColor">
+  <path fill-rule="evenodd"
+        d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
+        clip-rule="evenodd"/>
 </svg>
 </span>
                                     </div>
@@ -613,7 +613,7 @@ function App() {
                                     </p>
 
                                     <p>
-                                        <span class="block text-2xl font-bold text-white">Tangero and Argentine Tango Organizer</span>
+                                        <span class="block text-2xl font-bold text-white">Tanguero and Argentine Tango Organizer</span>
                                         <span class="mt-1 block text-base text-gray-300">Having begun to pick up Argentine Tango seriously in the Fall of 2010 I have since danced more nights away than I can count. On the side I've worked to host numerous events from house parties to large scale festivals as well as being one of the original projects that led to opening my company: SpkEz (Speakeasy Tango LLC).</span>
                                     </p>
                                 </div>
