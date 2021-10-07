@@ -404,11 +404,11 @@ function App() {
                             </p>
                             <div class="mt-6 grid grid-cols-2 gap-8 md:grid-cols-4 lg:grid-cols-4">
                                 <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-                                    <img class="h-20" src="agile.svg"
+                                    <img class="h-20" src="agile3.svg"
                                          alt="Agile"/>
                                 </div>
                                 <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-                                    <img class="h-20" src="UIUX.svg"
+                                    <img class="h-20" src="UIUX4.svg"
                                          alt="UI/UX"/>
                                 </div>
                                 <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
@@ -609,7 +609,7 @@ function App() {
                                         <span class="block text-2xl font-bold text-white">High Ranked Warlock</span>
                                         <span class="mt-1 block text-base text-gray-300">Reached rank <a
                                             href="https://raider.io/characters/us/arthas/Brokenkey"
-                                            class="font-medium text-white underline"> 300 and 400 for Mythic+ Warlocks</a> in World of Warcraft during Shadowlands season 1 and 2 respectively.</span>
+                                            class="font-medium text-white underline"> 300 for Mythic+ Warlocks</a> in World of Warcraft during Shadowlands season 1 and 2 respectively.</span>
                                     </p>
 
                                     <p>
