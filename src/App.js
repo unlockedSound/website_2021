@@ -62,7 +62,7 @@ function App() {
                                     </svg>
                                 </a>
                                 <a rel="noopener noreferrer"
-                                   href="blob:null/ba5a0005-d68b-416d-8ce0-f38d6438361d"
+                                   href="https://github.com/unlockedSound/website_2021/blob/gh-pages/david_chorvinsky_resume.pdf"
                                    target="_blank" className="text-gray-400 hover:text-gray-600">
                                     <span className="sr-only">Resume</span>
                                     <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 sm:h-8 sm:w-8"
