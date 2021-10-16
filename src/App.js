@@ -10,7 +10,7 @@ function App() {
                     <div
                         class="max-w-7xl mx-auto px-4 py-2 sm:px-6 md:justify-start md:space-x-10 lg:px-8">
                         <div class="flex sm:flex-row flex-col justify-between">
-                            <div class="flex justify-start">
+                            <div class="flex justify-start w-full">
                                 <img class="h-10 w-auto sm:h-16"
                                      src="logo.svg"
                                      alt=""/>
@@ -611,7 +611,7 @@ function App() {
                                             Sex Offender
                                             Search</a></h3>
                                         <p class="mt-2 text-base text-purple-200">
-                                            Search application for DC sex offender data. A rebuild an over a decade old
+                                            Search application for DC's Sex Offender Registry data. A rebuild of an over a decade old
                                             web application. Fully developed, tested, and released in less than half a
                                             year reducing time to release by greater than 50% from historic standards.
                                         </p>
