@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import React, {Component} from 'react';
 
@@ -15,12 +14,13 @@ function App() {
                                 <img class="h-10 w-auto sm:h-16"
                                      src="logo.svg"
                                      alt=""/>
-                                <div class="pl-3 text-2xl sm:text-4xl my-auto ">
+                                <div class="pl-3 sm:pl-6 text-4xl sm:text-6xl my-auto name">
                                     David Chorvinsky
                                 </div>
                             </div>
                             <div className="flex md:order-2 justify-end pt-4 sm:pt-0 my-auto">
-                                <a href="https://www.instagram.com/echoofhaiku/"
+                                <a rel="noopener noreferrer" href="https://www.instagram.com/echoofhaiku/"
+                                   target="_blank"
                                    className="text-gray-400 hover:text-gray-600">
                                     <span className="sr-only">Instagram</span>
                                     <svg className="h-6 w-6 sm:h-8 sm:w-8" fill="currentColor" viewBox="0 0 24 24"
@@ -31,7 +31,7 @@ function App() {
                                     </svg>
                                 </a>
 
-                                <a href="https://twitter.com/UnlockedSound"
+                                <a rel="noopener noreferrer" href="https://twitter.com/UnlockedSound" target="_blank"
                                    className="text-gray-400 hover:text-gray-600">
                                     <span className="sr-only">Twitter</span>
                                     <svg className="h-6 w-6 sm:h-8 sm:w-8" fill="currentColor" viewBox="0 0 24 24"
@@ -41,7 +41,7 @@ function App() {
                                     </svg>
                                 </a>
 
-                                <a href="https://github.com/unlockedSound"
+                                <a rel="noopener noreferrer" href="https://github.com/unlockedSound" target="_blank"
                                    className="text-gray-400 hover:text-gray-600">
                                     <span className="sr-only">GitHub</span>
                                     <svg className="h-6 w-6 sm:h-8 sm:w-8" fill="currentColor" viewBox="0 0 24 24"
@@ -51,7 +51,8 @@ function App() {
                                               clip-rule="evenodd"/>
                                     </svg>
                                 </a>
-                                <a href="tel:3018073848" className="text-gray-400 hover:text-gray-600">
+                                <a rel="noopener noreferrer" href="tel:3018073848"
+                                   className="text-gray-400 hover:text-gray-600">
                                     <span className="sr-only">Cell Phone</span>
                                     <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 sm:h-8 sm:w-8"
                                          fill="none"
@@ -60,7 +61,9 @@ function App() {
                                               d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
                                     </svg>
                                 </a>
-                                <a href="david_chorvinsky_resume" className="text-gray-400 hover:text-gray-600">
+                                <a rel="noopener noreferrer"
+                                   href="https://github.com/unlockedSound/website_2021/blob/gh-pages/david_chorvinsky_resume.pdf"
+                                   target="_blank" className="text-gray-400 hover:text-gray-600">
                                     <span className="sr-only">Resume</span>
                                     <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 sm:h-8 sm:w-8"
                                          fill="none"
@@ -131,7 +134,7 @@ function App() {
                                                 className="sm:pl-4 -mr-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
 
                                                 <div className="flow-root">
-                                                    <ul role="list" className="-mb-8">
+                                                    <ul className="-mb-8">
 
                                                         {/*                                            <li>*/}
                                                         {/*                                                <div className="relative pb-8">*/}
@@ -235,7 +238,7 @@ function App() {
                                                                 <div className="relative flex space-x-3">
                                                                     <div>
             <span className="h-10 w-10 rounded-full bg-white flex items-center justify-center">
-                                <img className="p-1" src="umd.png"/>
+                                <img className="p-1" src="umd.png" alt="University of Maryland logo"/>
             </span>
                                                                     </div>
                                                                     <div
@@ -263,7 +266,7 @@ function App() {
                                                                 <div className="relative flex space-x-3">
                                                                     <div>
             <span className="h-10 w-10 rounded-full bg-white flex items-center justify-center">
-                <img className="p-1" src="dcflag.jpg"/>
+                <img className="p-1" alt="flag of Washington D.C." src="dcflag.jpg"/>
             </span>
                                                                     </div>
                                                                     <div
@@ -297,7 +300,7 @@ function App() {
                                                                 <div className="relative flex space-x-3">
                                                                     <div>
             <span className="h-10 w-10 rounded-full bg-white flex items-center justify-center">
-                <img className="p-1" src="dcflag.jpg"/>
+                <img className="p-1" alt="Flag of Washington D.C." src="dcflag.jpg"/>
             </span>
                                                                     </div>
                                                                     <div
@@ -326,7 +329,7 @@ function App() {
                                                                 <div className="relative flex space-x-3">
                                                                     <div>
             <span className="h-10 w-10 rounded-full bg-white flex items-center justify-center">
-                <img className="p-1" src="spkez.png"/>
+                <img className="p-1" alt="SpkEz logo" src="spkez.png"/>
             </span>
                                                                     </div>
                                                                     <div
@@ -357,7 +360,7 @@ function App() {
                                                                 <div className="relative flex space-x-3">
                                                                     <div>
             <span className="h-10 w-10 rounded-full bg-purple-700 flex items-center justify-center">
-                <img className="p-1" src="auction_bot.png"/>
+                <img className="p-1" alt="Buyer's Guide logo of a bag with a stack of coins" src="auction_bot.png"/>
             </span>
                                                                     </div>
                                                                     <div
@@ -368,7 +371,8 @@ function App() {
                                                                                 a Discord bot that does economic
                                                                                 analysis of World of Warcraft's in game
                                                                                 economy with&nbsp;
-                                                                                <a className="text-blue-400 underline"
+                                                                                <a rel="noopener noreferrer"
+                                                                                   className="text-blue-400 underline"
                                                                                    target="_blank"
                                                                                    href="https://www.linkedin.com/in/reed-trevelyan-42247b168/">
                                                                                     Reed Trevelyan</a> as the project's
@@ -392,7 +396,7 @@ function App() {
                                                                 <div className="relative flex space-x-3">
                                                                     <div>
             <span className="h-10 w-10 rounded-full bg-white flex items-center justify-center">
-                <img className="p-1" src="dcflag.jpg"/>
+                <img className="p-1" alt="Flag of Washington D.C." src="dcflag.jpg"/>
             </span>
                                                                     </div>
                                                                     <div
@@ -419,7 +423,7 @@ function App() {
                                                                 <div className="relative flex space-x-3">
                                                                     <div>
             <span className="h-10 w-10 rounded-full bg-white flex items-center justify-center">
-                <img className="p-1" src="phenom_logo.png"/>
+                <img className="p-1" alt="Phenom company logo" src="phenom_logo.png"/>
             </span>
                                                                     </div>
                                                                     <div
@@ -504,7 +508,8 @@ function App() {
 </span>
                                     </div>
                                     <div class="mt-6">
-                                        <h3 class="text-lg font-medium text-white"><a className="underline"
+                                        <h3 class="text-lg font-medium text-white"><a rel="noopener noreferrer"
+                                                                                      className="underline"
                                                                                       target="_blank"
                                                                                       href="https://wowbuyersguide.com/">Buyer's
                                             Guide: Auction Bot</a></h3>
@@ -512,7 +517,10 @@ function App() {
                                             After a decade plus of fascination and tracking of the economy within World
                                             of Warcraft, a friend and I teamed up to bring my complex analysis to the
                                             masses in the form of a responsive bot that empowers every player to get the
-                                            best price on anything available on the in-game marketplace. The bot has seen over 100 installs and 1000 users engage with it as well as assisting me personally in netting 2 million of in-game currency and saving millions more due to optimizing decisions with data.
+                                            best price on anything available on the in-game marketplace. The bot has
+                                            seen over 100 installs and 1000 users engage with it as well as assisting me
+                                            personally in netting 2 million of in-game currency and saving millions more
+                                            due to optimizing decisions with data.
                                         </p>
                                     </div>
                                 </div>
@@ -528,7 +536,8 @@ function App() {
 </span>
                                     </div>
                                     <div class="mt-6">
-                                        <h3 class="text-lg font-medium text-white"><a className="underline"
+                                        <h3 class="text-lg font-medium text-white"><a rel="noopener noreferrer"
+                                                                                      className="underline"
                                                                                       target="_blank"
                                                                                       href="CovidCheck.coronavirus.dc.gov">DC
                                             COVID19 Check</a></h3>
@@ -577,7 +586,7 @@ function App() {
                                 {/*                                        <p class="mt-2 text-base text-purple-200">*/}
                                 {/*                                            Having learned D&D in middle school I've been designing and running games*/}
                                 {/*                                            consistently since around 2012. With a passion for story telling and design*/}
-                                {/*                                            combining to create complex tales and locations like <a*/}
+                                {/*                                            combining to create complex tales and locations like <a rel="noopener noreferrer"*/}
                                 {/*                                            className="underline" target="_blank"*/}
                                 {/*                                            href="#">Aldermoure</a>*/}
                                 {/*                                        </p>*/}
@@ -595,7 +604,8 @@ function App() {
 </span>
                                     </div>
                                     <div class="mt-6">
-                                        <h3 class="text-lg font-medium text-white"><a className="underline"
+                                        <h3 class="text-lg font-medium text-white"><a rel="noopener noreferrer"
+                                                                                      className="underline"
                                                                                       target="_blank"
                                                                                       href="https://sexoffender.dc.gov/">DC
                                             Sex Offender
@@ -636,9 +646,9 @@ function App() {
                         <div className="h-80 absolute inset-x-0 bottom-0 ">
                             <div className="h-full w-full ">
                                 <div className="h-full xl:relative ">
-                                    <img className="h-full w-full object-cover opacity-25"
-                                         src="tango.jpg"
-                                         alt="People working on laptops"/>
+                                    <img alt="David Chorvinsky dancing Argentine Tango. Photo by Nikos Z. Photography"
+                                         className="h-full w-full object-cover opacity-25"
+                                         src="tango.jpg"/>
                                     <div aria-hidden="true"
                                          className="absolute inset-x-0 top-0 h-32 bg-gradient-to-b from-gray-900 "></div>
                                 </div>
@@ -660,30 +670,63 @@ function App() {
                                     <p className="">
                                         <div
                                             class="text-2xl font-bold text-white flex justify-start">
-                                            <img src="dnd.png" className="rounded-sm h-8 pr-2 my-auto"/>
-                                            <span>Creator and Dungeon Master</span></div>
+                                            <div
+                                                className=" my-auto">
+                                                <img src="dnd.png" alt="Dungeons and Dragons logo"
+                                                     className="h-8 pr-2 max-w-none"/>
+                                            </div>
+                                            <span>Creator and Dungeon Master</span>
+                                        </div>
                                         <span class="mt-1 block text-base text-gray-300">I've been playing, and almost exclusively running, Dungeons and Dragons campaigns since middle school. I focus on story telling and expanding my home built game world through player interaction with it. Especially deep love of <a
+                                            rel="noopener noreferrer"
                                             class="font-medium text-white underline"
                                             href="https://cdn.discordapp.com/attachments/750163510884827157/773750814011162644/IMG_4282.jpg">map making</a> to bring the world to life.</span>
                                     </p>
 
                                     <p>
-                                        <span class="block text-2xl font-bold text-white">Passion for Creating and Experiencing Cooking</span>
+                                        <div
+                                            className="text-2xl font-bold text-white flex justify-start">
+                                            <div
+                                                className=" my-auto">
+                                                <svg xmlns="http://www.w3.org/2000/svg"
+                                                     className="h-10 pr-1 -ml-1 my-auto"
+                                                     viewBox="0 0 20 20" fill="currentColor">
+                                                    <path fill-rule="evenodd"
+                                                          d="M12.395 2.553a1 1 0 00-1.45-.385c-.345.23-.614.558-.822.88-.214.33-.403.713-.57 1.116-.334.804-.614 1.768-.84 2.734a31.365 31.365 0 00-.613 3.58 2.64 2.64 0 01-.945-1.067c-.328-.68-.398-1.534-.398-2.654A1 1 0 005.05 6.05 6.981 6.981 0 003 11a7 7 0 1011.95-4.95c-.592-.591-.98-.985-1.348-1.467-.363-.476-.724-1.063-1.207-2.03zM12.12 15.12A3 3 0 017 13s.879.5 2.5.5c0-1 .5-4 1.25-4.5.5 1 .786 1.293 1.371 1.879A2.99 2.99 0 0113 13a2.99 2.99 0 01-.879 2.121z"
+                                                          clip-rule="evenodd"/>
+                                                </svg>
+                                            </div>
+                                            <span class="block text-2xl font-bold text-white">Passion for Creating and Experiencing Cooking</span>
+                                        </div>
                                         <span class="mt-1 block text-base text-gray-300">From working in a Moroccan French fusion restaurant instead of summer camp in grade school to being fed blowfish by Iron Chef Japanese Morimoto. I have a long and storied history with cuisine.</span>
                                     </p>
 
                                     <p>
-                                        <span class="block text-2xl font-bold text-white">Tanguero and Argentine Tango Organizer</span>
-                                        <span class="mt-1 block text-base text-gray-300">Having begun to pick up Argentine Tango seriously in the Fall of 2010 I have since danced more nights away than I can count. On the side I've worked to host numerous events from house parties to large scale festivals as well as being one of the original projects that led to opening my company: SpkEz (Speakeasy Tango LLC).</span>
+                                        <div
+                                            className="text-2xl font-bold text-white flex justify-start">
+                                            <div
+                                                className="my-auto">
+                                                <img src="tango.png" alt="two dancers in Argentine Tango pose"
+                                                     className="h-8 w-none max-w-none pr-2"/>
+                                            </div>
+                                            <span
+                                                class="block text-2xl font-bold text-white">Tanguero and Organizer</span>
+                                        </div>
+                                        <span class="mt-1 block text-base text-gray-300">Picking up Argentine Tango in the Fall of 2010 I have danced more nights away than I can count. Some of those nights spent at my own events from house parties to festivals with a few hundred people.</span>
                                     </p>
 
                                     <p>
-                                        <div class="text-2xl font-bold text-white flex justify-start">
-                                            <img src="warlock.png" className="rounded-sm h-8 pr-2 my-auto"/>
+                                        <div className="text-2xl font-bold text-white flex justify-start">
+
+                                            <div class=" my-auto">
+                                                <img src="warlock.png" className="h-8 pr-2"
+                                                     alt="warlock class icon"/>
+                                            </div>
                                             <span
                                                 className="block text-2xl font-bold text-white">High Ranked Warlock</span>
                                         </div>
                                         <span className="mt-1 block text-base text-gray-300">Peaked at rank <a
+                                            rel="noopener noreferrer"
                                             href="https://raider.io/characters/us/arthas/Brokenkey"
                                             className="font-medium text-white underline"> 300 for Mythic+ Warlocks</a> in World of Warcraft staying consistently within the top .5% of all Warlock during Shadowlands season 1 and 2.</span>
 
@@ -702,7 +745,7 @@ function App() {
                                     class="block bg-gradient-to-r from-purple-600 to-indigo-600 bg-clip-text text-transparent">Feel free to reach out if you would be interested in learning more about myself, my projects, or you think I might be a good fit for one of your own.</span>
                             </h2>
                             <div class="mt-6 space-y-4 sm:space-y-0 sm:flex sm:space-x-5">
-                                <a href="mailto:david@chorvinsky.com"
+                                <a rel="noopener noreferrer" href="mailto:david@chorvinsky.com"
                                    class="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-indigo-800 bg-indigo-50 hover:bg-indigo-100">
                                     Get in touch
                                 </a>
