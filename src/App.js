@@ -611,7 +611,7 @@ function App() {
                                             Sex Offender
                                             Search</a></h3>
                                         <p class="mt-2 text-base text-purple-200">
-                                            Search application for DC's Sex Offender Registry data. A rebuild of an over a decade old
+                                            Search application for Offender Registry data aa part of the Metropolitan Police Department's Public Safety unit. A rebuild of an over a decade old
                                             web application. Fully developed, tested, and released in less than half a
                                             year reducing time to release by greater than 50% from historic standards.
                                         </p>
