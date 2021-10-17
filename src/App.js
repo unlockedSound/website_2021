@@ -14,14 +14,14 @@ function App() {
                                 <img class="h-10 w-auto sm:h-16"
                                      src="logo.svg"
                                      alt=""/>
-                                <div class="pl-3 sm:pl-6 text-4xl sm:text-6xl my-auto name">
+                                <div class="pl-3 sm:pl-6 py-1 text-3xl sm:text-4xl align-middle font-extrabold my-auto text-transparent bg-clip-text bg-gradient-to-r from-purple-700 to-indigo-900">
                                     David Chorvinsky
                                 </div>
                             </div>
                             <div className="flex md:order-2 justify-end pt-4 sm:pt-0 my-auto">
                                 <a rel="noopener noreferrer" href="https://www.instagram.com/echoofhaiku/"
                                    target="_blank"
-                                   className="text-gray-400 hover:text-gray-600">
+                                   className="text-gray-400 hover:text-gray-600 px-2 md:px-4">
                                     <span className="sr-only">Instagram</span>
                                     <svg className="h-6 w-6 sm:h-8 sm:w-8" fill="currentColor" viewBox="0 0 24 24"
                                          aria-hidden="true">
@@ -32,7 +32,7 @@ function App() {
                                 </a>
 
                                 <a rel="noopener noreferrer" href="https://twitter.com/UnlockedSound" target="_blank"
-                                   className="text-gray-400 hover:text-gray-600">
+                                   className="text-gray-400 hover:text-gray-600 px-2 md:px-4">
                                     <span className="sr-only">Twitter</span>
                                     <svg className="h-6 w-6 sm:h-8 sm:w-8" fill="currentColor" viewBox="0 0 24 24"
                                          aria-hidden="true">
@@ -42,7 +42,7 @@ function App() {
                                 </a>
 
                                 <a rel="noopener noreferrer" href="https://github.com/unlockedSound" target="_blank"
-                                   className="text-gray-400 hover:text-gray-600">
+                                   className="text-gray-400 hover:text-gray-600 px-2 md:px-4">
                                     <span className="sr-only">GitHub</span>
                                     <svg className="h-6 w-6 sm:h-8 sm:w-8" fill="currentColor" viewBox="0 0 24 24"
                                          aria-hidden="true">
@@ -51,19 +51,19 @@ function App() {
                                               clip-rule="evenodd"/>
                                     </svg>
                                 </a>
-                                <a rel="noopener noreferrer" href="tel:3018073848"
-                                   className="text-gray-400 hover:text-gray-600">
-                                    <span className="sr-only">Cell Phone</span>
-                                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 sm:h-8 sm:w-8"
-                                         fill="none"
-                                         viewBox="0 0 24 24" stroke="currentColor">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                              d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
-                                    </svg>
-                                </a>
+                                {/*<a rel="noopener noreferrer" href="tel:3018073848"*/}
+                                {/*   className="text-gray-400 hover:text-gray-600">*/}
+                                {/*    <span className="sr-only">Cell Phone</span>*/}
+                                {/*    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 sm:h-8 sm:w-8"*/}
+                                {/*         fill="none"*/}
+                                {/*         viewBox="0 0 24 24" stroke="currentColor">*/}
+                                {/*        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"*/}
+                                {/*              d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>*/}
+                                {/*    </svg>*/}
+                                {/*</a>*/}
                                 <a rel="noopener noreferrer"
-                                   href="https://github.com/unlockedSound/website_2021/blob/gh-pages/david_chorvinsky_resume.pdf"
-                                   target="_blank" className="text-gray-400 hover:text-gray-600">
+                                   href="https://s3.us-west-2.amazonaws.com/chorvinsky.com/david_chorvinsky_resume.pdf"
+                                   target="_blank" className="text-gray-400 hover:text-gray-600 px-2 md:px-4">
                                     <span className="sr-only">Resume</span>
                                     <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 sm:h-8 sm:w-8"
                                          fill="none"
@@ -238,7 +238,7 @@ function App() {
                                                                 <div className="relative flex space-x-3">
                                                                     <div>
             <span className="h-10 w-10 rounded-full bg-white flex items-center justify-center">
-                                <img className="p-1" src="umd.png" alt="University of Maryland logo"/>
+                                <img className="p-1 rounded-full" src="umd.png" alt="University of Maryland logo"/>
             </span>
                                                                     </div>
                                                                     <div
@@ -515,7 +515,7 @@ function App() {
                                             Guide: Auction Bot</a></h3>
                                         <p class="mt-2 text-base text-purple-200">
                                             After a decade plus of fascination and tracking of the economy within World
-                                            of Warcraft, a friend and I teamed up to bring my complex analysis to the
+                                            of Warcraft, <a href="https://www.linkedin.com/in/reed-trevelyan-42247b168/" target="_blank" rel="noopener noreferrer" className="underline"> a friend</a> and I teamed up to bring my complex analysis to the
                                             masses in the form of a responsive bot that empowers every player to get the
                                             best price on anything available on the in-game marketplace. The bot has
                                             seen over 100 installs and 1000 users engage with it as well as assisting me
@@ -756,7 +756,7 @@ function App() {
             </main>
 
             <footer class="bg-gray-50" aria-labelledby="footer-heading">
-                <div class="max-w-7xl mx-auto pb-8 px-4 sm:px-6 lg:px-8 pt-6">
+                <div class="max-w-7xl mx-auto pb-5 px-4 sm:px-6 lg:px-8 pt-4">
                     <div
                         class="border-gray-200 md:flex md:items-center md:justify-between">
 
