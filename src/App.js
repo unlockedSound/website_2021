@@ -4,24 +4,24 @@ import React, {Component} from 'react';
 
 function App() {
     return (
-        <div class="bg-white">
+        <div className="bg-white dark:bg-gray-900">
             <header>
-                <div class="relative bg-white">
+                <div className="relative bg-white dark:bg-gray-900">
                     <div
-                        class="max-w-7xl mx-auto px-4 py-2 sm:px-6 md:justify-start md:space-x-10 lg:px-8">
-                        <div class="flex sm:flex-row flex-col justify-between">
-                            <div class="flex justify-start w-full">
-                                <img class="h-10 w-auto sm:h-16"
-                                     src="logo.svg"
+                        className="max-w-7xl mx-auto px-4 py-2 sm:px-6 md:justify-start md:space-x-10 lg:px-8">
+                        <div className="flex sm:flex-row flex-col justify-between">
+                            <div className="flex justify-start w-full">
+                                <img className="h-10 w-auto sm:h-16"
+                                     src="logo_purple.svg"
                                      alt=""/>
-                                <div class="pl-3 sm:pl-6 py-1 text-3xl sm:text-4xl align-middle font-extrabold my-auto text-transparent bg-clip-text bg-gradient-to-r from-purple-700 to-indigo-900">
+                                <div className="pl-3 sm:pl-6 py-1 text-3xl sm:text-4xl align-middle font-extrabold my-auto text-transparent bg-clip-text bg-gradient-to-r from-purple-700 to-indigo-900 dark:from-purple-400 dark:to-indigo-300">
                                     David Chorvinsky
                                 </div>
                             </div>
                             <div className="flex md:order-2 justify-end pt-4 sm:pt-0 my-auto">
                                 <a rel="noopener noreferrer" href="https://www.instagram.com/echoofhaiku/"
                                    target="_blank"
-                                   className="text-gray-400 hover:text-gray-600 px-2 md:px-4">
+                                   className="text-gray-400 dark:text-gray-100 hover:text-gray-600 dark:hover:text-gray-300 px-2 md:px-4">
                                     <span className="sr-only">Instagram</span>
                                     <svg className="h-6 w-6 sm:h-8 sm:w-8" fill="currentColor" viewBox="0 0 24 24"
                                          aria-hidden="true">
@@ -32,7 +32,7 @@ function App() {
                                 </a>
 
                                 <a rel="noopener noreferrer" href="https://twitter.com/UnlockedSound" target="_blank"
-                                   className="text-gray-400 hover:text-gray-600 px-2 md:px-4">
+                                   className="text-gray-400 dark:text-gray-100 hover:text-gray-600 dark:hover:text-gray-300 px-2 md:px-4">
                                     <span className="sr-only">Twitter</span>
                                     <svg className="h-6 w-6 sm:h-8 sm:w-8" fill="currentColor" viewBox="0 0 24 24"
                                          aria-hidden="true">
@@ -42,7 +42,7 @@ function App() {
                                 </a>
 
                                 <a rel="noopener noreferrer" href="https://github.com/unlockedSound" target="_blank"
-                                   className="text-gray-400 hover:text-gray-600 px-2 md:px-4">
+                                   className="text-gray-400 dark:text-gray-100 hover:text-gray-600 dark:hover:text-gray-300 px-2 md:px-4">
                                     <span className="sr-only">GitHub</span>
                                     <svg className="h-6 w-6 sm:h-8 sm:w-8" fill="currentColor" viewBox="0 0 24 24"
                                          aria-hidden="true">
@@ -63,7 +63,7 @@ function App() {
                                 {/*</a>*/}
                                 <a rel="noopener noreferrer"
                                    href="https://s3.us-west-2.amazonaws.com/chorvinsky.com/david_chorvinsky_resume.pdf"
-                                   target="_blank" className="text-gray-400 hover:text-gray-600 px-2 md:px-4">
+                                   target="_blank" className="text-gray-400 dark:text-gray-100 hover:text-gray-600 dark:hover:text-gray-300 px-2 md:px-4">
                                     <span className="sr-only">Resume</span>
                                     <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 sm:h-8 sm:w-8"
                                          fill="none"
@@ -81,9 +81,9 @@ function App() {
             </header>
 
             <main>
-                <div class="relative">
-                    <div class="bg-gray-100">
-                        <div class="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
+                <div className="relative">
+                    <div className="bg-gray-100 dark:bg-gray-800">
+                        <div className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
                             <div className="relative lg:pt-16 pb-4 md:pb-14 overflow-hidden">
 
                                 <div className="relative">
@@ -103,12 +103,12 @@ function App() {
                 </span>
                                                 </div>
                                                 <div className="mt-6">
-                                                    <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">
+                                                    <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 dark:text-gray-100">
                                                         A drive to build;
                                                         <br/>
                                                         zigzags to get there
                                                     </h2>
-                                                    <p className="mt-4 text-lg text-gray-600">
+                                                    <p className="mt-4 text-lg text-gray-600 dark:text-gray-400">
                                                         I haven't had a straight path to where I am today but what has
                                                         been true the entire time is a single passion to create.
                                                         Inspired by my late entrepreneurial father, a family business,
@@ -144,7 +144,7 @@ function App() {
                                                         {/*                                                    <div className="relative flex space-x-3">*/}
                                                         {/*                                                        <div>*/}
                                                         {/*<span className="h-10 w-10 rounded-full bg-green-800 flex items-center justify-center">*/}
-                                                        {/*    <img class="p-1" src="ut0g7w9ejjvqxdelvyg8.svg"/>*/}
+                                                        {/*    <img className="p-1" src="ut0g7w9ejjvqxdelvyg8.svg"/>*/}
                                                         {/*</span>*/}
                                                         {/*                                                        </div>*/}
                                                         {/*                                                        <div*/}
@@ -244,13 +244,13 @@ function App() {
                                                                     <div
                                                                         className="min-w-0 flex-wrap-reverse lg:flex-1 pt-1.5 flex justify-between md:space-x-4 w-72 sm:w-8/12 md:w-10/12 lg:w-none">
                                                                         <div className="w-72 sm:w-2/3 lg:w-none">
-                                                                            <p className="text-sm text-gray-600">
+                                                                            <p className="text-sm text-gray-600 dark:text-gray-300">
                                                                                 Graduated with a <span
-                                                                                className="font-medium text-gray-900">B.S. in GIS with Honors
+                                                                                className="font-medium text-gray-900 dark:text-gray-100">B.S. in GIS with Honors
                                                                                     </span></p>
                                                                         </div>
                                                                         <div
-                                                                            className="text-right text-sm whitespace-nowrap text-gray-600">
+                                                                            className="text-right text-sm whitespace-nowrap text-gray-600 dark:text-gray-300">
                                                                             <p>Fall 2015</p>
                                                                         </div>
                                                                     </div>
@@ -272,19 +272,19 @@ function App() {
                                                                     <div
                                                                         className="min-w-0 flex-wrap-reverse lg:flex-1 pt-1.5 flex justify-between md:space-x-4 w-72 sm:w-8/12 md:w-10/12 lg:w-none">
                                                                         <div className="w-72 sm:w-2/3 lg:w-none">
-                                                                            <p className="text-sm text-gray-600">Started
+                                                                            <p className="text-sm text-gray-600 dark:text-gray-300">Started
                                                                                 as a <span
-                                                                                    className="font-medium text-gray-900"> Front End Developer </span>
+                                                                                    className="font-medium text-gray-900 dark:text-gray-100"> Front End Developer </span>
                                                                                 and <span
-                                                                                    className="font-medium text-gray-900">UI/UX Designer </span>
+                                                                                    className="font-medium text-gray-900 dark:text-gray-100">UI/UX Designer </span>
                                                                                 with <span
-                                                                                    className="font-medium text-gray-900">DC
+                                                                                    className="font-medium text-gray-900 dark:text-gray-100">DC
                                                                                     Office of the Chief Technology
                                                                                     Officer: Data Team</span>
                                                                             </p>
                                                                         </div>
                                                                         <div
-                                                                            className="text-right text-sm whitespace-nowrap text-gray-600">
+                                                                            className="text-right text-sm whitespace-nowrap text-gray-600 dark:text-gray-300">
                                                                             <p>Spring 2016</p>
                                                                         </div>
                                                                     </div>
@@ -306,14 +306,14 @@ function App() {
                                                                     <div
                                                                         className="min-w-0 flex-wrap-reverse lg:flex-1 pt-1.5 flex justify-between md:space-x-4 w-72 sm:w-8/12 md:w-10/12 lg:w-none">
                                                                         <div className="w-72 sm:w-2/3 lg:w-none">
-                                                                            <p className="text-sm text-gray-600">
+                                                                            <p className="text-sm text-gray-600 dark:text-gray-300">
                                                                                 Took on <span
-                                                                                className="font-medium text-gray-900">Product Management </span>
+                                                                                className="font-medium text-gray-900 dark:text-gray-100">Product Management </span>
                                                                                 as focus in addition to existing roles
                                                                             </p>
                                                                         </div>
                                                                         <div
-                                                                            className="text-right text-sm whitespace-nowrap text-gray-600">
+                                                                            className="text-right text-sm whitespace-nowrap text-gray-600 dark:text-gray-300">
                                                                             <p>Summer 2017</p>
                                                                         </div>
                                                                     </div>
@@ -335,16 +335,16 @@ function App() {
                                                                     <div
                                                                         className="min-w-0 flex-wrap-reverse lg:flex-1 pt-1.5 flex justify-between md:space-x-4 w-72 sm:w-8/12 md:w-10/12 lg:w-none">
                                                                         <div className="w-72 sm:w-2/3 lg:w-none">
-                                                                            <p className="text-sm text-gray-600">Opened <span
-                                                                                className="font-medium text-gray-900"> SpkEz </span><span
-                                                                                className="italic text-gray-600">(Speakeasy Tango LLC) </span>
+                                                                            <p className="text-sm text-gray-600 dark:text-gray-300">Opened <span
+                                                                                className="font-medium text-gray-900 dark:text-gray-100"> SpkEz </span><span
+                                                                                className="italic text-gray-600 dark:text-gray-300">(Speakeasy Tango LLC) </span>
                                                                                 to work on developing projects starting
                                                                                 with a bespoke registration system for
                                                                                 tango events
                                                                             </p>
                                                                         </div>
                                                                         <div
-                                                                            className="text-right text-sm whitespace-nowrap text-gray-600">
+                                                                            className="text-right text-sm whitespace-nowrap text-gray-600 dark:text-gray-300">
                                                                             <p>Winter 2018</p>
                                                                         </div>
                                                                     </div>
@@ -359,15 +359,15 @@ function App() {
                                                                     aria-hidden="true"/>
                                                                 <div className="relative flex space-x-3">
                                                                     <div>
-            <span className="h-10 w-10 rounded-full bg-purple-700 flex items-center justify-center">
-                <img className="p-1" alt="Buyer's Guide logo of a bag with a stack of coins" src="auction_bot.png"/>
+            <span className="h-10 w-10 rounded-full bg-white flex items-center justify-center">
+                <img className="p-1" alt="Buyer's Guide logo of a bag with a stack of coins" src="auction_bot2.png"/>
             </span>
                                                                     </div>
                                                                     <div
                                                                         className="min-w-0 flex-wrap-reverse lg:flex-1 pt-1.5 flex justify-between md:space-x-4 w-72 sm:w-8/12 md:w-10/12 lg:w-none">
                                                                         <div className="w-72 sm:w-2/3 lg:w-none">
-                                                                            <p className="text-sm text-gray-600">Created <span
-                                                                                className="font-medium text-gray-900"> Buyer's Guide: Auction Bot </span>
+                                                                            <p className="text-sm text-gray-600 dark:text-gray-300">Created <span
+                                                                                className="font-medium text-gray-900 dark:text-gray-100"> Buyer's Guide: Auction Bot </span>
                                                                                 a Discord bot that does economic
                                                                                 analysis of World of Warcraft's in game
                                                                                 economy with&nbsp;
@@ -380,7 +380,7 @@ function App() {
                                                                             </p>
                                                                         </div>
                                                                         <div
-                                                                            className="text-right text-sm whitespace-nowrap text-gray-600">
+                                                                            className="text-right text-sm whitespace-nowrap text-gray-600 dark:text-gray-300">
                                                                             <p>Fall 2018</p>
                                                                         </div>
                                                                     </div>
@@ -402,15 +402,15 @@ function App() {
                                                                     <div
                                                                         className="min-w-0 flex-wrap-reverse lg:flex-1 pt-1.5 flex justify-between md:space-x-4 w-72 sm:w-8/12 md:w-10/12 lg:w-none">
                                                                         <div className="w-72 sm:w-2/3 lg:w-none">
-                                                                            <p className="text-sm text-gray-600">
+                                                                            <p className="text-sm text-gray-600 dark:text-gray-300">
                                                                                 Advanced to <span
-                                                                                className="font-medium text-gray-900">Program Manager </span>
+                                                                                className="font-medium text-gray-900 dark:text-gray-100">Program Manager </span>
                                                                                 leading team of Developers and
                                                                                 implementing Agile practices
                                                                             </p>
                                                                         </div>
                                                                         <div
-                                                                            className="text-right text-sm whitespace-nowrap text-gray-600">
+                                                                            className="text-right text-sm whitespace-nowrap text-gray-600 dark:text-gray-300">
                                                                             <p>Fall 2019</p>
                                                                         </div>
                                                                     </div>
@@ -429,18 +429,18 @@ function App() {
                                                                     <div
                                                                         className="min-w-0 flex-wrap-reverse lg:flex-1 pt-1.5 flex justify-between md:space-x-4 w-72 sm:w-8/12 md:w-10/12 lg:w-none">
                                                                         <div className="w-72 sm:w-2/3 lg:w-none">
-                                                                            <p className="text-sm text-gray-600">
+                                                                            <p className="text-sm text-gray-600 dark:text-gray-300">
                                                                                 Joined <span
-                                                                                className="font-medium text-gray-900">Phenom </span><span
+                                                                                className="font-medium text-gray-900 dark:text-gray-100">Phenom </span><span
                                                                                 className="italic">formerly <span
-                                                                                className="text-gray-700">Phenom People </span></span>
+                                                                                className="text-gray-700 dark:text-gray-400">Phenom People </span></span>
                                                                                 as lead <span
-                                                                                className="font-medium text-gray-900">Product Manager </span> for
+                                                                                className="font-medium text-gray-900 dark:text-gray-100">Product Manager </span> for
                                                                                 CX platform
                                                                             </p>
                                                                         </div>
                                                                         <div
-                                                                            className="text-right text-sm whitespace-nowrap text-gray-600">
+                                                                            className="text-right text-sm whitespace-nowrap text-gray-600 dark:text-gray-300">
                                                                             <p>Winter 2021</p>
                                                                         </div>
                                                                     </div>
@@ -458,24 +458,24 @@ function App() {
                                 </div>
                             </div>
 
-                            {/*<p class="text-center text-sm font-semibold uppercase text-gray-600 tracking-wide">*/}
+                            {/*<p className="text-center text-sm font-semibold uppercase text-gray-600 tracking-wide">*/}
                             {/*    Skills*/}
                             {/*</p>*/}
-                            {/*<div class="mt-6 grid grid-cols-2 gap-8 md:grid-cols-4 lg:grid-cols-4">*/}
-                            {/*    <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">*/}
-                            {/*        <img class="h-20" src="agile3.svg"*/}
+                            {/*<div className="mt-6 grid grid-cols-2 gap-8 md:grid-cols-4 lg:grid-cols-4">*/}
+                            {/*    <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">*/}
+                            {/*        <img className="h-20" src="agile3.svg"*/}
                             {/*             alt="Agile"/>*/}
                             {/*    </div>*/}
-                            {/*    <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">*/}
-                            {/*        <img class="h-20" src="UIUX4.svg"*/}
+                            {/*    <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">*/}
+                            {/*        <img className="h-20" src="UIUX4.svg"*/}
                             {/*             alt="UI/UX"/>*/}
                             {/*    </div>*/}
-                            {/*    <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">*/}
-                            {/*        <img class="h-20" src="webdev.svg"*/}
+                            {/*    <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">*/}
+                            {/*        <img className="h-20" src="webdev.svg"*/}
                             {/*             alt="Web Development"/>*/}
                             {/*    </div>*/}
                             {/*    <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">*/}
-                            {/*        <img class="h-20"*/}
+                            {/*        <img className="h-20"*/}
                             {/*             src="management.svg"*/}
                             {/*             alt="Management"/>*/}
                             {/*    </div>*/}
@@ -483,22 +483,22 @@ function App() {
                         </div>
                     </div>
 
-                    <div class="bg-gradient-to-r from-purple-800 to-indigo-700">
+                    <div className="bg-gradient-to-r from-purple-800 to-indigo-700">
                         <div
-                            class="max-w-4xl mx-auto px-4 py-16 sm:px-6 sm:pt-20 sm:pb-24 lg:max-w-7xl lg:pt-24 lg:px-8">
-                            <h2 class="text-3xl font-extrabold text-white tracking-tight">
+                            className="max-w-4xl mx-auto px-4 py-16 sm:px-6 sm:pt-20 sm:pb-24 lg:max-w-7xl lg:pt-24 lg:px-8">
+                            <h2 className="text-3xl font-extrabold text-white tracking-tight">
                                 A few projects on and off the job
                             </h2>
-                            <p class="mt-4 max-w-3xl text-lg text-purple-200">
+                            <p className="mt-4 max-w-3xl text-lg text-purple-200">
                                 No matter where I am I'm looking for problems to solve and projects to work on. Both at
                                 work and home I'm driven by a desire to create which has led to some of the following
                                 projects.
                             </p>
                             <div
-                                class="mt-12 grid grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2 lg:mt-16 lg:grid-cols-4 lg:gap-x-8 lg:gap-y-16">
+                                className="mt-12 grid grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2 lg:mt-16 lg:grid-cols-4 lg:gap-x-8 lg:gap-y-16">
                                 <div>
                                     <div>
-<span class="flex items-center justify-center h-12 w-12 rounded-md bg-white bg-opacity-10">
+<span className="flex items-center justify-center h-12 w-12 rounded-md bg-white bg-opacity-10">
     <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-white" viewBox="0 0 20 20" fill="currentColor">
   <path d="M13 7H7v6h6V7z"/>
   <path fill-rule="evenodd"
@@ -507,13 +507,13 @@ function App() {
 </svg>
 </span>
                                     </div>
-                                    <div class="mt-6">
-                                        <h3 class="text-lg font-medium text-white"><a rel="noopener noreferrer"
+                                    <div className="mt-6">
+                                        <h3 className="text-lg font-medium text-white"><a rel="noopener noreferrer"
                                                                                       className="underline"
                                                                                       target="_blank"
                                                                                       href="https://wowbuyersguide.com/">Buyer's
                                             Guide: Auction Bot</a></h3>
-                                        <p class="mt-2 text-base text-purple-200">
+                                        <p className="mt-2 text-base text-purple-200">
                                             After a decade plus of fascination and tracking of the economy within World
                                             of Warcraft, <a href="https://www.linkedin.com/in/reed-trevelyan-42247b168/" target="_blank" rel="noopener noreferrer" className="underline"> a friend</a> and I teamed up to bring my complex analysis to the
                                             masses in the form of a responsive bot that empowers every player to get the
@@ -527,7 +527,7 @@ function App() {
 
                                 <div>
                                     <div>
-<span class="flex items-center justify-center h-12 w-12 rounded-md bg-white bg-opacity-10">
+<span className="flex items-center justify-center h-12 w-12 rounded-md bg-white bg-opacity-10">
    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-white" viewBox="0 0 20 20" fill="currentColor">
   <path fill-rule="evenodd"
         d="M7 2a1 1 0 00-.707 1.707L7 4.414v3.758a1 1 0 01-.293.707l-4 4C.817 14.769 2.156 18 4.828 18h10.343c2.673 0 4.012-3.231 2.122-5.121l-4-4A1 1 0 0113 8.172V4.414l.707-.707A1 1 0 0013 2H7zm2 6.172V4h2v4.172a3 3 0 00.879 2.12l1.027 1.028a4 4 0 00-2.171.102l-.47.156a4 4 0 01-2.53 0l-.563-.187a1.993 1.993 0 00-.114-.035l1.063-1.063A3 3 0 009 8.172z"
@@ -535,13 +535,13 @@ function App() {
 </svg>
 </span>
                                     </div>
-                                    <div class="mt-6">
-                                        <h3 class="text-lg font-medium text-white"><a rel="noopener noreferrer"
+                                    <div className="mt-6">
+                                        <h3 className="text-lg font-medium text-white"><a rel="noopener noreferrer"
                                                                                       className="underline"
                                                                                       target="_blank"
                                                                                       href="CovidCheck.coronavirus.dc.gov">DC
                                             COVID19 Check</a></h3>
-                                        <p class="mt-2 text-base text-purple-200">
+                                        <p className="mt-2 text-base text-purple-200">
                                             A site and questionnaire that provides information and next steps to those
                                             who receive mobile exposure notifications to COVID19. This project was proof
                                             of success for my effort to implement agile development, management and
@@ -554,16 +554,16 @@ function App() {
 
                                 <div>
                                     <div>
-<span class="flex items-center justify-center h-12 w-12 rounded-md bg-white bg-opacity-10">
+<span className="flex items-center justify-center h-12 w-12 rounded-md bg-white bg-opacity-10">
     <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-white" viewBox="0 0 20 20" fill="currentColor">
   <path
       d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"/>
 </svg>
 </span>
                                     </div>
-                                    <div class="mt-6">
-                                        <h3 class="text-lg font-medium text-white">SpkEz Event Registration</h3>
-                                        <p class="mt-2 text-base text-purple-200">
+                                    <div className="mt-6">
+                                        <h3 className="text-lg font-medium text-white">SpkEz Event Registration</h3>
+                                        <p className="mt-2 text-base text-purple-200">
                                             A bespoke tango registration system designed to allow for a simple and
                                             intuitive registration process for attendees and automated leader-follower
                                             balancing for organizers. Powered multiple events I ran as well as being
@@ -574,16 +574,16 @@ function App() {
 
                                 {/*                                <div>*/}
                                 {/*                                    <div>*/}
-                                {/*<span class="flex items-center justify-center h-12 w-12 rounded-md bg-white bg-opacity-10">*/}
-                                {/*    <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"*/}
+                                {/*<span className="flex items-center justify-center h-12 w-12 rounded-md bg-white bg-opacity-10">*/}
+                                {/*    <svg className="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"*/}
                                 {/*         stroke="currentColor" aria-hidden="true">*/}
                                 {/*<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h10a8 8 0 018 8v2M3 10l6 6m-6-6l6-6"/>*/}
                                 {/*</svg>*/}
                                 {/*</span>*/}
                                 {/*                                    </div>*/}
-                                {/*                                    <div class="mt-6">*/}
-                                {/*                                        <h3 class="text-lg font-medium text-white">Dungeon Master and Game Designer</h3>*/}
-                                {/*                                        <p class="mt-2 text-base text-purple-200">*/}
+                                {/*                                    <div className="mt-6">*/}
+                                {/*                                        <h3 className="text-lg font-medium text-white">Dungeon Master and Game Designer</h3>*/}
+                                {/*                                        <p className="mt-2 text-base text-purple-200">*/}
                                 {/*                                            Having learned D&D in middle school I've been designing and running games*/}
                                 {/*                                            consistently since around 2012. With a passion for story telling and design*/}
                                 {/*                                            combining to create complex tales and locations like <a rel="noopener noreferrer"*/}
@@ -595,7 +595,7 @@ function App() {
 
                                 <div>
                                     <div>
-<span class="flex items-center justify-center h-12 w-12 rounded-md bg-white bg-opacity-10">
+<span className="flex items-center justify-center h-12 w-12 rounded-md bg-white bg-opacity-10">
 <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-white" viewBox="0 0 20 20" fill="currentColor">
   <path fill-rule="evenodd"
         d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
@@ -603,14 +603,14 @@ function App() {
 </svg>
 </span>
                                     </div>
-                                    <div class="mt-6">
-                                        <h3 class="text-lg font-medium text-white"><a rel="noopener noreferrer"
+                                    <div className="mt-6">
+                                        <h3 className="text-lg font-medium text-white"><a rel="noopener noreferrer"
                                                                                       className="underline"
                                                                                       target="_blank"
                                                                                       href="https://sexoffender.dc.gov/">DC
                                             Sex Offender
                                             Search</a></h3>
-                                        <p class="mt-2 text-base text-purple-200">
+                                        <p className="mt-2 text-base text-purple-200">
                                             Search application for Offender Registry data as part of the Metropolitan Police Department's Public Safety unit. A rebuild of an over a decade old
                                             web application. Fully developed, tested, and released in less than half a
                                             year reducing time to release by greater than 50% from historic standards.
@@ -642,7 +642,7 @@ function App() {
                         </div>
                     </div>
 
-                    <div class="relative bg-gray-900">
+                    <div className="relative bg-gray-900">
                         <div className="h-80 absolute inset-x-0 bottom-0 ">
                             <div className="h-full w-full ">
                                 <div className="h-full xl:relative ">
@@ -655,21 +655,21 @@ function App() {
                             </div>
                         </div>
                         <div
-                            class="max-w-4xl mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8 ">
-                            <div class="relative pt-12 pb-64 sm:pt-24 sm:pb-64 ">
-                                <h2 class="text-sm font-semibold tracking-wide uppercase">
+                            className="max-w-4xl mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8 ">
+                            <div className="relative pt-12 pb-64 sm:pt-24 sm:pb-64 ">
+                                <h2 className="text-sm font-semibold tracking-wide uppercase">
                                 <span
-                                    class="bg-gradient-to-r from-purple-300 to-indigo-300 bg-clip-text text-transparent">Other Stuff</span>
+                                    className="bg-gradient-to-r from-purple-300 to-indigo-300 bg-clip-text text-transparent">Other Stuff</span>
                                 </h2>
-                                <p class="mt-3 text-3xl font-extrabold text-white">A small slice of hobbies and nifty
+                                <p className="mt-3 text-3xl font-extrabold text-white">A small slice of hobbies and nifty
                                     tidbits</p>
-                                <p class="mt-5 text-lg text-gray-300">Either as an extension of the drive to create or
+                                <p className="mt-5 text-lg text-gray-300">Either as an extension of the drive to create or
                                     just a bit of a side hobby I find more than a few ways to stay busy</p>
 
-                                <div class="mt-12 grid grid-cols-1 gap-y-12 gap-x-6 sm:grid-cols-2">
+                                <div className="mt-12 grid grid-cols-1 gap-y-12 gap-x-6 sm:grid-cols-2">
                                     <p className="">
                                         <div
-                                            class="text-2xl font-bold text-white flex justify-start">
+                                            className="text-2xl font-bold text-white flex justify-start">
                                             <div
                                                 className=" my-auto">
                                                 <img src="dnd.png" alt="Dungeons and Dragons logo"
@@ -677,9 +677,9 @@ function App() {
                                             </div>
                                             <span>Creator and Dungeon Master</span>
                                         </div>
-                                        <span class="mt-1 block text-base text-gray-300">I've been playing, and almost exclusively running, Dungeons and Dragons campaigns since middle school. I focus on story telling and expanding my home built game world through player interaction with it. Especially deep love of <a
+                                        <span className="mt-1 block text-base text-gray-300">I've been playing, and almost exclusively running, Dungeons and Dragons campaigns since middle school. I focus on story telling and expanding my home built game world through player interaction with it. Especially deep love of <a
                                             rel="noopener noreferrer"
-                                            class="font-medium text-white underline"
+                                            className="font-medium text-white underline"
                                             href="https://cdn.discordapp.com/attachments/750163510884827157/773750814011162644/IMG_4282.jpg">map making</a> to bring the world to life.</span>
                                     </p>
 
@@ -696,9 +696,9 @@ function App() {
                                                           clip-rule="evenodd"/>
                                                 </svg>
                                             </div>
-                                            <span class="block text-2xl font-bold text-white">Passion for Creating and Experiencing Cooking</span>
+                                            <span className="block text-2xl font-bold text-white">Passion for Creating and Experiencing Cooking</span>
                                         </div>
-                                        <span class="mt-1 block text-base text-gray-300">From working in a Moroccan French fusion restaurant instead of summer camp in grade school to being fed blowfish by Iron Chef Japanese Morimoto. I have a long and storied history with cuisine.</span>
+                                        <span className="mt-1 block text-base text-gray-300">From working in a Moroccan French fusion restaurant instead of summer camp in grade school to being fed blowfish by Iron Chef Japanese Morimoto. I have a long and storied history with cuisine.</span>
                                     </p>
 
                                     <p>
@@ -710,15 +710,15 @@ function App() {
                                                      className="h-8 w-none max-w-none pr-2"/>
                                             </div>
                                             <span
-                                                class="block text-2xl font-bold text-white">Tanguero and Organizer</span>
+                                                className="block text-2xl font-bold text-white">Tanguero and Organizer</span>
                                         </div>
-                                        <span class="mt-1 block text-base text-gray-300">Picking up Argentine Tango in the Fall of 2010 I have danced more nights away than I can count. Some of those nights spent at my own events from house parties to festivals with a few hundred people.</span>
+                                        <span className="mt-1 block text-base text-gray-300">Picking up Argentine Tango in the Fall of 2010 I have danced more nights away than I can count. Some of those nights spent at my own events from house parties to festivals with a few hundred people.</span>
                                     </p>
 
                                     <p>
                                         <div className="text-2xl font-bold text-white flex justify-start">
 
-                                            <div class=" my-auto">
+                                            <div className=" my-auto">
                                                 <img src="warlock.png" className="h-8 pr-2"
                                                      alt="warlock class icon"/>
                                             </div>
@@ -736,17 +736,17 @@ function App() {
                         </div>
                     </div>
 
-                    <div class="bg-white">
+                    <div className="bg-gradient-to-r from-white to-white dark:from-gray-800 dark:to-indigo-900">
                         <div
-                            class="max-w-4xl mx-auto py-16 px-4 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
-                            <h2 class="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-                                <span class="block">Want to get in touch?</span>
+                            className="max-w-4xl mx-auto py-16 px-4 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
+                            <h2 className="text-4xl font-extrabold tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl">
+                                <span className="block">Want to get in touch?</span>
                                 <span
-                                    class="block bg-gradient-to-r from-purple-600 to-indigo-600 bg-clip-text text-transparent">Feel free to reach out if you would be interested in learning more about myself, my projects, or you think I might be a good fit for one of your own.</span>
+                                    className="block bg-gradient-to-r from-purple-600 to-indigo-600 dark:from-indigo-500 dark:to-purple-300 bg-clip-text text-transparent">Feel free to reach out if you would be interested in learning more about myself, my projects, or you think I might be a good fit for one of your own.</span>
                             </h2>
-                            <div class="mt-6 space-y-4 sm:space-y-0 sm:flex sm:space-x-5">
+                            <div className="mt-6 space-y-4 sm:space-y-0 sm:flex sm:space-x-5">
                                 <a rel="noopener noreferrer" href="mailto:david@chorvinsky.com"
-                                   class="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-indigo-800 bg-indigo-50 hover:bg-indigo-100">
+                                   className="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-indigo-800 dark:text-indigo-50 bg-indigo-50 dark:bg-indigo-700 hover:bg-indigo-100 dark:hover:bg-indigo-800">
                                     Get in touch
                                 </a>
                             </div>
@@ -755,12 +755,12 @@ function App() {
                 </div>
             </main>
 
-            <footer class="bg-gray-50" aria-labelledby="footer-heading">
-                <div class="max-w-7xl mx-auto pb-5 px-4 sm:px-6 lg:px-8 pt-4">
+            <footer className="bg-gray-50 dark:bg-gray-800" aria-labelledby="footer-heading">
+                <div className="max-w-7xl mx-auto pb-5 px-4 sm:px-6 lg:px-8 pt-4">
                     <div
-                        class="border-gray-200 md:flex md:items-center md:justify-between">
+                        className="border-gray-200 dark:border-gray-900 md:flex md:items-center md:justify-between">
 
-                        <p class="mt-8 text-base text-gray-400 md:mt-0 md:order-1">
+                        <p className="mt-8 text-base text-gray-400 dark:text-gray-100 md:mt-0 md:order-1">
                             &copy; 2021 David Chorvinsky, All rights reserved.
                         </p>
                     </div>
