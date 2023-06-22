@@ -1,8 +1,15 @@
 {
-  "main.css": "static/css/main.90510452.css",
-  "main.css.map": "static/css/main.90510452.css.map",
-  "main.js": "static/js/main.1cab71c7.js",
-  "main.js.map": "static/js/main.1cab71c7.js.map",
-  "static/js/0.0af65522.chunk.js": "static/js/0.0af65522.chunk.js",
-  "static/js/0.0af65522.chunk.js.map": "static/js/0.0af65522.chunk.js.map"
+  "files": {
+    "main.css": "/chorvinsky.com/static/css/main.91ea7a60.css",
+    "main.js": "/chorvinsky.com/static/js/main.05a24a23.js",
+    "static/js/787.b7b08965.chunk.js": "/chorvinsky.com/static/js/787.b7b08965.chunk.js",
+    "index.html": "/chorvinsky.com/index.html",
+    "main.91ea7a60.css.map": "/chorvinsky.com/static/css/main.91ea7a60.css.map",
+    "main.05a24a23.js.map": "/chorvinsky.com/static/js/main.05a24a23.js.map",
+    "787.b7b08965.chunk.js.map": "/chorvinsky.com/static/js/787.b7b08965.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.91ea7a60.css",
+    "static/js/main.05a24a23.js"
+  ]
 }
